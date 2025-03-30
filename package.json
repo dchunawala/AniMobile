@@ -1,7 +1,7 @@
 {
   "name": "a0-project",
   "version": "1.0.0",
-  "license": "0BSD",
+  "homepage": "https://dchunawala.github.io/AniMobile/",
   "private": true,
   "main": "index.ts",
   "scripts": {
@@ -9,6 +9,8 @@
     "android": "npx expo run:android",
     "ios": "npx expo run:ios",
     "web": "npx expo start --web"
+    "predeploy": "expo export:web",
+    "deploy": "gh-pages -d web-build"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.0.4",
@@ -37,6 +39,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
+    "gh-pages": "^6.1.1",
     "@types/react": "~18.2.14",
     "typescript": "^5.1.3"
   }
