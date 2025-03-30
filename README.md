@@ -32,6 +32,7 @@ cd AniMobile
 2. Install dependencies:
 ```bash
 npm install --force
+npx expo install @expo/metro-runtime
 npm audit fix --force
 ```
 
