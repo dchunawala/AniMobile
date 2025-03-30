@@ -30,7 +30,6 @@
     "plugins": [
       "expo-camera",
       "expo-location"
-    ],
-    "platforms": ["ios", "android", "web"]
+    ]
   }
 }
