@@ -4,9 +4,12 @@
   
 [build.environment]
   NODE_VERSION = "18.17.1"
-  NPM_FLAGS = "--legacy-peer-deps --force"
+  NPM_FLAGS = "--force"
 
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+  
+[functions]
+  node_bundler = "esbuild"
