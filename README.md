@@ -30,7 +30,7 @@ cd AniMobile
 
 2. Install dependencies:
 ```bash
-npm install --legacy-peer-deps
+npm install --force
 ```
 
 3. Start the development server:
