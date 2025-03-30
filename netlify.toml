@@ -1,12 +1,12 @@
 [build]
-  command = "npx expo export --platform web"
+  command = "npx expo export -p web"
   publish = "dist"
   
 [build.environment]
   NODE_VERSION = "18.17.1"
-  NPM_FLAGS = "--legacy-peer-deps"
+  NPM_FLAGS = "--legacy-peer-deps --force"
 
 [[redirects]]
   from = "/*"
-  to = "/"
+  to = "/index.html"
   status = 200
