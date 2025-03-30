@@ -1,6 +1,6 @@
 [build]
-  command = "npm run build"
-  publish = "web-build"
+  command = "npx expo export -p web"
+  publish = "dist"
   
 [build.environment]
   NODE_VERSION = "18.17.1"
