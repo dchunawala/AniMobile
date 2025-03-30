@@ -1,17 +1,19 @@
 {
   "expo": {
-    "name": "a0-project",
-    "slug": "snack-f950fa02-0484-446f-8440-6817ab43fb65",
+    "name": "AniMobile",
+    "slug": "animobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -24,6 +26,10 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "description": "Quickly generate React Native components with AI"
+    "plugins": [
+      "expo-camera",
+      "expo-location"
+    ],
+    "platforms": ["ios", "android", "web"]
   }
 }
