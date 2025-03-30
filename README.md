@@ -24,7 +24,7 @@ A React Native mobile application for wildlife enthusiasts to track, share, and 
 
 1. Clone the repository:
 ```bash
-git clone [repository-url] https://github.com/dchunawala/AniMobile.git
+git clone https://github.com/dchunawala/AniMobile.git
 cd AniMobile
 ```
 
