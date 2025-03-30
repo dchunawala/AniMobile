@@ -50,18 +50,11 @@ function MainTabs() {
   );
 }
 
-import { Platform } from 'react-native';
-
 export default function App() {
   return (
     <SafeAreaProvider>
       <NavigationContainer>
-        <Tab.Navigator
-          screenOptions={{
-            headerShown: false,
-            tabBarStyle: Platform.OS === 'web' ? { display: 'none' } : undefined
-          }}
-        >
+        <Tab.Navigator>
           <Tab.Screen 
             name="Auth" 
             component={AuthScreen}
