@@ -1,5 +1,5 @@
 [build]
-  command = "expo export"
+  command = "npm run build"
   publish = "web-build"
   
 [build.environment]
