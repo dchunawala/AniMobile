@@ -19,6 +19,7 @@ A React Native mobile application for wildlife enthusiasts to track, share, and 
 - Expo CLI: `npm install -g expo-cli`
 - Expo Go app on your mobile device (for testing)
 - Git
+- brew install watchman
 
 ### Installation Steps
 
@@ -31,6 +32,7 @@ cd AniMobile
 2. Install dependencies:
 ```bash
 npm install --force
+npm audit fix --force
 ```
 
 3. Start the development server:
